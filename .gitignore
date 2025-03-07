@@ -1,5 +1,3 @@
 Chicago_Crimes_ZIP.parquet
 crime-between-dates
 target/
-.idea/
-bin/
