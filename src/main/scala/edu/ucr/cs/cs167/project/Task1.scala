@@ -22,8 +22,7 @@ object Task1 {
     SparkSQLRegistration.registerUDT
     SparkSQLRegistration.registerUDF(sparkSession)
 
-    val operation: String = args(0)
-    val inputFile: String = args(1)
+    val inputFile: String = args(0)
 
     try {
       // Import Beast features
